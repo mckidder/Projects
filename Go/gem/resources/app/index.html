@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="static/css/base.css"/>
+		<script type="text/javascript" src="static/js/base.js"></script>
+	</head>
+	<body>
+		<div class="full-container">
+			<div class="frame-container-left">
+				<div class="nav-container">
+					<div class="frame-button close" id="close"></div>
+				</div>
+				<div class="logo-container">
+					<img src="static/img/gem-logo.svg"/>
+				</div>
+				<div class="item-list-container">
+					<p>GEM is a P2P, blockchain-based, end-to-end, encrypted chat client built using golang. To get started, exchange IP's and ports with another user. Encryption will happen automatically without any additional input. Happy Hacking.</p>
+				</div>
+				<div class="item-list-container row">
+					<div class="item">
+						<h1>IP Address</h1>
+						<h2 id="ip">127.0.0.1</h2>
+					</div>
+					<div class="item">
+						<h1>Port</h1>
+						<h2>3000</h2>
+					</div>
+				</div>
+				<div class="ip-container">
+					<input type="text" id="ip-box" class="ip-box" value="Client IP">
+					<input type="text" id="port-box" class="port-box" value="Port">
+				</div>
+				<div class="button-container">
+					<div class="button host" id="connect">Connect</div>
+					<div class="button join" id="send">Send</div>
+				</div>
+			</div>
+			<div class="frame-container-right">
+				<div class="textbox-container">
+					<textarea rows="6" id="console-box" class="message-box" readonly></textarea>
+					<input type="text" id="content-box" class="content-box">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

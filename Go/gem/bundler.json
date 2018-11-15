@@ -1,0 +1,7 @@
+{
+  "app_name": "GEM : Go Encryption Messenger",
+  "output_path": "releases",
+  "environments": [
+    {"arch": "amd64", "os": "darwin"}
+  ]
+}
